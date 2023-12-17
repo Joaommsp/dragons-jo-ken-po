@@ -90,6 +90,10 @@ async function createCardImage(idCard, fieldSide) {
 
      cardImage.addEventListener("click", () => {
       setCardsField(cardImage.getAttribute("data-id"))
+      window.scrollTo({
+        top: 0,
+        behavior: 'smooth' // Para fazer a transição suave
+      });
      })
   }
   return cardImage
