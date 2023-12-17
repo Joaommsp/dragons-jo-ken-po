@@ -120,9 +120,8 @@ body {
   justify-content: center;
 }
 
-.versus-bottom,
 .versus-top {
-  margin-top: 2rem;
+  margin-top: 1rem;
 }
 
 .versus-top {
@@ -138,7 +137,6 @@ body {
 
 #next-duel {
   display: none;
-  margin-bottom: 1rem;
   padding: 0 3rem;
 }
 
